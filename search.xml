@@ -4,9 +4,88 @@
   
     
     <entry>
+      <title>离散数学_2</title>
+      <link href="2021/03/05/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6_2/"/>
+      <url>2021/03/05/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6_2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="1-2-命题公式"><a href="#1-2-命题公式" class="headerlink" title="1.2 命题公式"></a>1.2 命题公式</h3><ol><li>简单命题的真值是确定的，称为<strong>命题常元（常项）</strong>。</li><li>取值0或1的变元称作<strong>命题变元（变项）</strong>。</li><li>将命题用联结词按照一定逻辑关系联结起来的符号串称为<strong>合式公式</strong>，合式公式定义如下：<ol><li>单个命题变元（或常元）是合式公式，称为<strong>原子命题公式</strong>。</li><li>若$A$是合式公式，则$\neg A$也是。</li><li>若$A, B$是合式公式，则$A\land B, A\lor B, A\to B, A\leftrightarrow B$也是。</li><li>有限次应用1-3形成的符号串是合式公式。</li></ol></li><li>合式公式也称为<strong>命题公式（形式）</strong>，简称为<strong>公式</strong>。</li><li>优先级：$\neg\ &gt;\ \land\ =\ \lor\ &gt;\ \to\ =\ \leftrightarrow$</li><li>设$p_1,p_2,\ldots,p_n$是公式$A$中的全部命题变元，给$p_1,p_2,\ldots,p_n$各指定一个真值，称为对$A$的一个<strong>赋值（解释）</strong>。<ol><li>若$A$在各种赋值中均为真，则称为<strong>重言式（永真式）</strong>。</li><li>若$A$在各种赋值中均为假，则称为<strong>矛盾式（永假式）</strong>。</li><li>若$A$不是矛盾式，则称为<strong>可满足式</strong>。</li></ol></li><li>真值表判断公式类型的原则：<ol><li>若真值表最后一列全为1，则公式为重言式。</li><li>若真值表最后一列全为0，则公式为矛盾式。</li><li>若真值表最后一列至少有一个为1，则公式为可满足式。</li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>模板</title>
+      <link href="2021/03/05/%E6%A8%A1%E6%9D%BF/"/>
+      <url>2021/03/05/%E6%A8%A1%E6%9D%BF/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 模板 </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>离散数学_1</title>
+      <link href="2021/03/05/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6_1/"/>
+      <url>2021/03/05/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6_1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="1-1-命题与联结词"><a href="#1-1-命题与联结词" class="headerlink" title="1.1 命题与联结词"></a>1.1 命题与联结词</h3><ol><li><p>命题</p><ol><li>非真即假的陈述句称作<strong>命题</strong>。</li><li>不能被分解位更简单的命题称作<strong>简单命题</strong>或<strong>原子命题</strong>。</li><li>由简单命题通过联结词构成的命题称作<strong>复合命题</strong>。</li><li>命题所表达的判断结果称为命题的<strong>真值</strong>。</li><li>一般地，以$p,q,r,\ldots$表示原子命题，以$1$表示命题的真值为真，$0$表示命题的真值为假。</li></ol></li><li><p>联结词</p><ol><li><p>符号$\neg$称作<strong>否定联结词</strong>。</p><ol><li><p>复合命题“非p”称为p的<strong>否定式</strong>，记作$\neg p$。</p></li><li><table><thead><tr><th align="center">$p$</th><th align="center">$\neg p$</th></tr></thead><tbody><tr><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">1</td><td align="center">0</td></tr></tbody></table></li></ol></li><li><p>符号$\land$称作<strong>合取联结词</strong>。</p><ol><li>复合命题“p并且q”称为p与q的<strong>合取式</strong>，记作$\land$。</li><li></li></ol><table><thead><tr><th align="center">$p$</th><th align="center">$q$</th><th align="center">$p\land q$</th></tr></thead><tbody><tr><td align="center">0</td><td align="center">0</td><td align="center">0</td></tr><tr><td align="center">0</td><td align="center">1</td><td align="center">0</td></tr><tr><td align="center">1</td><td align="center">0</td><td align="center">0</td></tr><tr><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr></tbody></table></li><li><p>符号$\lor$称作<strong>析取联结词</strong>。</p><ol><li>复合命题“p或q”称为p与q的<strong>析取式</strong>，记作$\lor$。</li><li></li></ol><table><thead><tr><th align="center">$p$</th><th align="center">$q$</th><th align="center">$p\lor q$</th></tr></thead><tbody><tr><td align="center">0</td><td align="center">0</td><td align="center">0</td></tr><tr><td align="center">0</td><td align="center">1</td><td align="center">1</td></tr><tr><td align="center">1</td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr></tbody></table></li><li><p>符号$\to$称作<strong>蕴含联结词</strong>。</p><ol><li>复合命题“如果p，则q”称为p与q的<strong>蕴含式</strong>，记作$\to$。</li><li></li></ol><table><thead><tr><th align="center">$p$</th><th align="center">$q$</th><th align="center">$p\to q$</th></tr></thead><tbody><tr><td align="center"><strong>0</strong></td><td align="center">0</td><td align="center">1</td></tr><tr><td align="center"><strong>0</strong></td><td align="center">1</td><td align="center">1</td></tr><tr><td align="center"><strong>1</strong></td><td align="center"><strong>0</strong></td><td align="center"><strong>0</strong></td></tr><tr><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr></tbody></table><ol start="3"><li>可以简单将$\to$类比为$\leq$ </li></ol></li><li><p>符号$\leftrightarrow$称作<strong>等价联结词</strong>。</p><ol><li>复合命题“p当且仅当q”称为p与q的<strong>等价式</strong>，记作$\leftrightarrow$。</li><li></li></ol><table><thead><tr><th align="center">$p$</th><th align="center">$q$</th><th align="center">$p\leftrightarrow q$</th></tr></thead><tbody><tr><td align="center"><strong>0</strong></td><td align="center"><strong>0</strong></td><td align="center"><strong>1</strong></td></tr><tr><td align="center">0</td><td align="center">1</td><td align="center">0</td></tr><tr><td align="center">1</td><td align="center">0</td><td align="center">0</td></tr><tr><td align="center"><strong>1</strong></td><td align="center"><strong>1</strong></td><td align="center"><strong>1</strong></td></tr></tbody></table></li><li><p>总结</p></li></ol><table><thead><tr><th align="center">$p$</th><th align="center">$q$</th><th align="center">$\neg p$</th><th align="center">$p\land q$</th><th align="center">$p\lor q$</th><th align="center">$p\to q$</th><th align="center">$p\leftrightarrow q$</th></tr></thead><tbody><tr><td align="center">0</td><td align="center">0</td><td align="center">1</td><td align="center">0</td><td align="center">0</td><td align="center">1</td><td align="center">1</td></tr><tr><td align="center">0</td><td align="center">1</td><td align="center">1</td><td align="center">0</td><td align="center">1</td><td align="center">1</td><td align="center">0</td></tr><tr><td align="center">1</td><td align="center">0</td><td align="center">0</td><td align="center">0</td><td align="center">1</td><td align="center">0</td><td align="center">0</td></tr><tr><td align="center">1</td><td align="center">1</td><td align="center">0</td><td align="center">1</td><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr></tbody></table></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>汇编语言的初次接触</title>
-      <link href="2021/03/05/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%9A%84%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6/"/>
-      <url>2021/03/05/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E7%9A%84%E5%88%9D%E6%AC%A1%E6%8E%A5%E8%A7%A6/</url>
+      <link href="2021/03/05/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80_1/"/>
+      <url>2021/03/05/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80_1/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="汇编语言的初次接触"><a href="#汇编语言的初次接触" class="headerlink" title="汇编语言的初次接触"></a>汇编语言的初次接触</h2><h3 id="汇编语言"><a href="#汇编语言" class="headerlink" title="汇编语言"></a>汇编语言</h3><ul><li>汇编语言是<font color="red">低级语言</font></li><li>汇编语言是各种CPU提供的机器指令的助记符集合</li></ul><blockquote><p>问：什么是汇编语言？</p><p>答：充分获得底层编程的体验，深刻理解机器运行程序的机理就是汇编语言</p></blockquote><h3 id="机器语言"><a href="#机器语言" class="headerlink" title="机器语言"></a>机器语言</h3><ul><li>机器指令的集合</li><li>机器指令就是一台机器可以正确执行的命令</li></ul><blockquote><p>问：什么是计算机系统？</p><p>答：由CPU和其他受CPU直接或间接控制的芯片、器件、设备组成的系统</p></blockquote><h3 id="汇编语言的分类"><a href="#汇编语言的分类" class="headerlink" title="汇编语言的分类"></a>汇编语言的分类</h3><h4 id="王爽分类"><a href="#王爽分类" class="headerlink" title="王爽分类"></a>王爽分类</h4><ul><li>汇编指令：机器码的助记符，有对应的机器码</li><li>伪指令：没有对应的机器码，由编译器执行，计算机不执行</li><li>其他符号：如：”+”,”-“,”*”,”/“,由编译器识别，没有对应的机器码</li></ul><h4 id="另外一种分类"><a href="#另外一种分类" class="headerlink" title="另外一种分类"></a>另外一种分类</h4><ul><li>标号域</li><li>操作域</li><li>操作数域</li><li>注释域</li></ul><h3 id="存储单元"><a href="#存储单元" class="headerlink" title="存储单元"></a>存储单元</h3><p>​    存储器被划分成若干个存储单元，每个存储单元从0开始顺序编号</p><ul><li>存储单元可以存8个bit也就是8位二进制数，即一个字节Byte</li><li>存储单元的容量是以字节为最小单位进行运算的</li></ul><h3 id="CPU对存储器的读写"><a href="#CPU对存储器的读写" class="headerlink" title="CPU对存储器的读写"></a>CPU对存储器的读写</h3><ul><li>存储单元的地址（地址信息）</li><li>器件的选择，度或者写的命令（控制信息）</li><li>读或写的数据（数据信息）</li></ul><h3 id="总线"><a href="#总线" class="headerlink" title="总线"></a>总线</h3><p>​    在计算机中有专门连接CPU和其他芯片的导线，通常称为总线，从物理上讲总线就是一根根导线的集合。</p><p>但是根据传送信息上不同从逻辑上又分为三类</p><h4 id="地址总线"><a href="#地址总线" class="headerlink" title="地址总线"></a>地址总线</h4><ul><li>一个CPU有N根地址线，则可以说地址总线宽度为N，这样的CPU最多可以寻找2的N次方个内存单元</li><li>内存单元的单位是bit</li></ul><h4 id="数据总线"><a href="#数据总线" class="headerlink" title="数据总线"></a>数据总线</h4><ul><li>数据总线的宽度决定了CPU和外界的数据传输速度，8根数据总线一次可以传送8bit(一个Byte),16根是两个</li></ul><h4 id="控制总线"><a href="#控制总线" class="headerlink" title="控制总线"></a>控制总线</h4><ul><li>控制总线决定了CPU对外部器件的控制能力</li></ul><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul><li><code>汇编指令</code>是<code>机器指令</code>的助记符，同<code>机器指令</code>一一对应</li><li>每一种CPU都有自己的<code>汇编指令</code>集</li><li>CPU可以直接使用的信息存储在存储器（在一定意义上存储器就是内存。）</li><li>在存储器中数据与指令没有任何区别都是二进制信息</li><li>存储单元从零开始编号</li><li>一个存储单元可以存8个bit，即8位二进制数，也就是一个字节Byte</li><li>1Byte = 8bit、1KB = 1024Byte、1MB = 1024KB、1GB = 1024MB</li><li>内存单元是以bit为单位</li><li>存储单元是以Byte为单位</li><li>每一个CPU芯片都有许多管脚，这些管脚与总线相连。也就是说这些管脚引出总线。一个CPU引出3种总线的宽度代表这个CPU不同方面的性能<ul><li>地址总线的宽度决定了CPU的寻址能力</li><li>数据总线的宽度决定了CPU与其他器件进行数据传送时的一次数据传送量</li><li>控制总线的宽度决定了CPU对系统中的其他器件控制能力</li></ul></li></ul>]]></content>
       
