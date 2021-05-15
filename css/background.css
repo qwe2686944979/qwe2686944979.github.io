@@ -1,1 +1,7 @@
-.aside-content,.recent-post-item{opacity:.9}
+.recent-post-item {
+    opacity: 0.9;
+}
+
+.aside-content{
+    opacity: 0.9;
+}
